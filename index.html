@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com"> -->
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,400&display=swap" rel="stylesheet"> -->
+    <link rel="stylesheet" href="./fonts//font.css">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <main>
+        <table class="hidden">
+            <caption>table title</caption>
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Name</th>
+                    <th>last name</th>
+                    <th>age</th>
+                    <th colspan="2">summ</th>
+                </tr>
+            </thead>
+            <tfoot>
+                <tr>
+                    <td colspan="4">total</td>
+                    <td colspan="2">0</td>
+                </tr>
+            </tfoot>
+            <tbody>
+                <tr>
+                    <td rowspan="2">1</td>
+                    <td>User 1</td>
+                    <td>Family</td>
+                    <td>30</td>
+                    <td>500000</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>User 1</td>
+                    <td>Family</td>
+                    <td>30</td>
+                    <td>500000</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td colspan="2" rowspan="2">1</td>
+                    <td>User 1</td>
+                    <td>Family</td>
+                    <td>30</td>
+                    <td>500000</td>
+                </tr>
+                <tr>
+                    <td>User 1</td>
+                    <td>Family</td>
+                    <td>30</td>
+                    <td>500000</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>User 1</td>
+                    <td>Family</td>
+                    <td>30</td>
+                    <td colspan="2" rowspan="2">500000</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>User 1</td>
+                    <td>Family</td>
+                    <td>30</td>
+                </tr>
+            </tbody>
+        </table>
+        <form class="hidden">
+            <fieldset>
+                <legend>Имя и Фамилия</legend>
+                <p>
+                    <label for="name">Введите ваше имя:</label>
+                    <input id="name" type="text" placeholder="Введите ваше имя" required>
+                </p>
+                <p>
+                    <label>
+                        Введите ваше имя:
+                        <input type="text" placeholder="Введите фамилию" required>
+                    </label>
+                </p>
+            </fieldset>
+            <label for="name">Введите ваше имя:</label>
+            <input id="name" type="text" placeholder="Введите ваше имя" required>
+            <br>
+            <label for="email">Введите вашу почту:</label>
+            <input id="email" type="email" placeholder="some_name@domain.com" required>
+            <br>
+            <label>
+                <input type="password" placeholder="password">
+            </label>
+            <br>
+            <label>
+                <input type="tel" placeholder="Entry your phone" required pattern="[0-9]" title="Введите только цифры">
+            </label>
+            <br>
+            <input type="number">
+            <br>
+            <textarea name=""></textarea>
+            <br>
+            <select name="" id="" multiple>
+                <option value="1" selected disabled>select your age</option>
+                <option value="2">two</option>
+                <option value="3">three</option>
+                <option value="4">four</option>
+            </select>
+            <label>
+                <input type="checkbox" value="one">
+                <span>Firs value</span>
+            </label>
+            <label>
+                <input type="checkbox" value="two">
+                <span>Last value</span>
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="someRadio" value="one">
+                <span>Firs value</span>
+            </label>
+            <label>
+                <input type="radio" name="someRadio" value="two">
+                <span>Last value</span>
+            </label>
+            <br>
+            <label>
+                <input type="range" value="15" name="" id="" min="0" max="100" step="1">
+            </label>
+            <br>
+            <label>
+                <input type="color" name="" id="">
+            </label>
+            <br>
+            <label>
+                <input type="date" name="" id="">
+            </label>
+            <label>
+                <input type="datetime-local" name="" id="">
+            </label>
+            <br>
+            <input type="reset" value="Сбросить">
+            <!-- <input type="submit" value="Отправить"> -->
+            <button type="submit">Send</button>
+        </form>
+        <h1 class="main-title">
+            Some tittle
+        </h1>
+        <p>some description</p>
+        <h2 class="secondary-title">Title 1</h2>
+        <h2 class="secondary-title">Title 2</h2>
+        <h2 class="secondary-title">Title 3</h2>
+        <h2 class="secondary-title">Title 4</h2>
+        <h2 class="secondary-title">Title 5</h2>
+        <h2 class="secondary-title">Title 6</h2>
+        <h2 class="secondary-title">Title 7</h2>
+        <h2 class="secondary-title">Title 8</h2>
+        <h2 class="secondary-title">Title 9</h2>
+        <h2 class="secondary-title">Title 10</h2>
+    </main>
+</body>
+
+</html>
